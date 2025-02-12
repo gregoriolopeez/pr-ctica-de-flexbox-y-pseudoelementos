@@ -1,35 +1,37 @@
 body {
     font-family: "Lexend", sans-serif;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;    
+    display: flex;
+    height: 90vh;
+    justify-content: center;
 }
 
 .menu {
-    width: 50%;
-    align-items: center;
+    padding: 0;
+    width: 120px;
 }
 
 .menu li {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 30px;
+    gap: 8px;
+    padding: auto;
+    list-style: none;
 }
 
 .menu li:hover {
     background: #ddd;
+    border-radius: 12px;
 }
 
-.menu li i {
+.menu li a {
+    color: black;
+    text-decoration: none;
     display: flex;
     font-size: 20px;
-    flex-direction: row;
+    gap: 5px;
+    padding: 10px;
     align-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    align-items: center;
+    
 }
