@@ -1,0 +1,35 @@
+body {
+    font-family: "Lexend", sans-serif;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.menu {
+    width: 50%;
+    align-items: center;
+}
+
+.menu li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu li:hover {
+    background: #ddd;
+}
+
+.menu li i {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
